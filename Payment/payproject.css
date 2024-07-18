@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Indie+Flower&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap'); 
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family:'poppins', sans-serif;
+
+}
+
+header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;  
+    transition: 0.5s ease;
+    /*background: #fff;*/
+}
+
+/*header img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}*/
+
+.brand{
+    color: #08589e;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+.brand:hover{
+    color: #09a6d4;
+}
+
+.navigation{
+    position: relative;
+}
+.navigation-items a{
+    position: relative;
+    color: #1652f7;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: 0.3s ease;
+}
+
+.navigation-items a:before{
+    content: '';
+    position: absolute;
+    background: #fff;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+img{
+    
+    background-position: center;
+    background-size: cover;
+}
+
+.banner
+{
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)),url(\CONSTRUCTION_MANAGEMENT_SYSTEM\SHAMIQ\shamiqimg\beautiful-view-construction-site-city-during-sunset.jpg) ; 
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+
+
+.banner .content-1
+{
+    width: 100%;
+    position: relative;
+    top: 30%;
+    text-align: center;
+    transition: 0.4s;
+    color: #ffffffc1;
+}
+
+.banner .content-1 h1
+{
+    font-size: 60px;
+    
+}
+
+h2
+{
+    display: flex;
+    font-size: 40px;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    padding: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+
+h2:hover{
+   
+    transform: scale(1.04);
+    background: #dddddd;
+    border-radius: 25px;
+    box-shadow: 10px 10px 45px;
+}
+
+
+.pro-1{
+    background: #dddddd;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+
+}
+.pro-1 img
+{
+    display: flex;
+    width: 70vh;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    float:left;
+    margin-top: 10px;
+    margin-left: 40px;
+    border-radius: 20px;
+    transition: 0.3s ;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+
+.pro-1 img:hover 
+{
+    box-shadow: 10px 12px 50px;
+    transform: scale(1.04)
+
+}
+
+.pro-1 p
+{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 40px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.pro-1 p:hover
+{
+    transform: scale(1.03);
+}
+
+.pro-2{
+    background: #dddddd;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+
+}
+.pro-2 img
+{
+    display: flex;
+    width: 70vh;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    float: right;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 20px;
+    transition: 0.3s ;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+
+.pro-2 img:hover 
+{
+    box-shadow: 10px 12px 50px;
+    transform: scale(1.04)
+
+}
+
+.pro-2 p
+{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 40px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.pro-2 p:hover
+{
+    transform: scale(1.03);
+}
+
+.pro-3{
+    background: #dddddd;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+
+}
+.pro-3 img
+{
+    display: flex;
+    width: 70vh;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.3s;
+
+}
+
+.pro-3 img:hover 
+{
+    box-shadow: 10px 12px 50px;
+    transform: scale(1.04)
+
+}
+
+.pro-3 p
+{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 40px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.pro-3 p:hover
+{
+    transform: scale(1.03);
+}
+
+.pro
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.parent
+{
+    width: 25%;
+    margin: 20px;
+    height: 250px;
+    overflow: hidden;
+    position:relative;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s;
+   
+   
+}
+
+.parent:hover{
+    box-shadow: 10px 12px 50px;}
+
+.parent img
+{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+.parent img:hover
+{
+    transform: scale(1.03);
+    opacity: 1;
+    
+}
+
+footer{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: #0f254e;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+}
+
+.footer-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+.box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.footer-logo{
+    margin: 20px 0 0 0;
+    height: 80px;
+    width: 150px;
+}
+
+.footer-social{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 0 0;
+}
+.footer-social i{
+   color: #fff;
+}
+.footer-social a{
+    text-decoration: none;
+    color: #fff;
+    height: fit-content;
+    margin-bottom: 10px;
+    /*font-size: 12px;*/
+    
+}
+.footer-social a:hover {
+    color: #ffffffb9;
+}
+.icon{
+    font-size: 15px;
+    padding-right: 5px;
+}
+.lings{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 0 0;
+}
+.lings a{
+    text-decoration: none;
+    color: #fff;
+    height: fit-content;
+    margin-bottom: 10px;
+}
+
+.lings a:hover{
+    color: #ffffffb9;
+}
+
+
+.footer-about-text{
+    margin: 20px 0 0 0;
+}

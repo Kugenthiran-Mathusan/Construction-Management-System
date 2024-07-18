@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: darkgrey;
+    background-image: url("vithu2newimage.jpg")
+}
+
+
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.register-btn-container1 {
+    text-align: left;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.register-btn-container2 {
+    text-align: right;
+    margin-top: 20px;
+}
+
+
+#register-btn {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#register-btn:hover {
+    background-color: rgb(48, 46, 46);
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.vacancy {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 0.5s ease forwards; /* Fade in animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.vacancy h2 {
+    margin-top: 0;
+    color: black;
+}
+
+.vacancy p {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Alternate background color for vacancies */
+.vacancy:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.reg-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;  
+    transition: 0.5s ease;
+    /*background: #fff;*/
+}
+
+/*header img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}*/
+
+.brand{
+    color: #08589e;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+.brand:hover{
+    color: #09a6d4;
+}
+
+.navigation{
+    position: relative;
+}
+.navigation-items a{
+    position: relative;
+    color: #1652f7;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: 0.3s ease;
+}
+
+.navigation-items a:before{
+    content: '';
+    position: absolute;
+    background: #fff;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+.navigation-items a:hover:before{
+    width: 100%;
+    background: #09a6d4; 
+}

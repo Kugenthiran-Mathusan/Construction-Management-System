@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cardHeader{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.cardHeader h2{
+    color: deepskyblue;
+    font-weight: 600;
+}
+
+.addBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-Add{
+    background: dodgerblue;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-Add a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.button-Add:hover{
+    background-color: deepskyblue;
+    transform: scale(0.9);
+}
+.cardBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 600px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.table thead tr{
+    background-color: #009879;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table th, .table td{
+    padding: 12px 15px;
+}
+
+.table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+.table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.table tbody tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}
+
+.btn{
+    display: flex;
+}
+.edit-btn button{
+    background-color: orange;
+    height: 30px;
+    width: 50px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-right: 5px;
+    transition: 0.3s;
+}
+
+.edit-btn button:hover{
+    background-color: rgb(228, 149, 3);
+    transform: scale(0.95);
+}
+ button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.delete-btn button{
+    background-color: red;
+    height: 30px;
+    width: 50px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-right: 5px;
+    transition: 0.3s;
+}
+
+.delete-btn button:hover{
+    background-color: rgb(217, 8, 8);
+    transform: scale(0.95);
+}
+
+header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;  
+    transition: 0.5s ease;
+    /*background: #fff;*/
+}
+
+/*header img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}*/
+
+.brand{
+    color: #08589e;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+.brand:hover{
+    color: #09a6d4;
+}
+
+.navigation{
+    position: relative;
+}
+.navigation-items a{
+    position: relative;
+    color: #1652f7;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: 0.3s ease;
+}
+
+.navigation-items a:before{
+    content: '';
+    position: absolute;
+    background: #fff;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+.navigation-items a:hover:before{
+    width: 100%;
+    background: #09a6d4; 
+}

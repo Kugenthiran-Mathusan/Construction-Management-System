@@ -1,0 +1,226 @@
+body {
+    background-image: url(serviceIMG/BACKGROUND.jpg);
+    
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-position: center center;
+
+    
+    background-attachment: fixed;
+    
+}
+p{
+    line-height: 2;
+    margin-top: 4px;
+    
+}
+
+.main-box-1{
+    background-image: url(serviceIMG/HEADINGpic.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0 0 100px 0;
+    margin-top: 40px;
+}
+
+.title-container-1{
+    background-color:rgb(167, 129, 34);
+    height: 110px;
+    width: 30%;
+    transform: skew(-10deg) skewY(0deg); 
+    transform-origin: top right;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.title-container-1 h1 {
+    transform: skew(10deg) skewY(0deg); 
+    transform-origin: top right;
+    font-size: 60px;
+    padding: 0 0 0 30px;
+}
+
+.main-box-2 {
+    
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0 0 100px 0;
+    
+}
+
+.photo-container-2 {
+    height: 100%;
+    width: 90%;
+    overflow: hidden;
+    position: relative;
+    transform: skew(-10deg) skewY(0deg); 
+    transform-origin: top right;
+}
+
+.photo-2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform: skew(10deg) skewY(0deg);
+    transform-origin: top right;
+}
+
+.details-container-2 {
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+}
+
+.title-container-2 {
+    background-color:rgb(167, 129, 34);
+    height: 110px;
+    width: 100%;
+    transform: skew(-10deg) skewY(0deg); 
+    transform-origin: top right;
+    display: flex;
+    align-items: center;
+}
+
+.title-container-2 h1 {
+    transform: skew(10deg) skewY(0deg); 
+    transform-origin: top right;
+    font-size: 50px;
+}
+
+.points-container-2 {
+    
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.points-list-2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.points-list-2 li {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.main-box-3 {
+  
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 0 100px 0;
+}
+
+.details-container-3 {
+  
+    height: 100%;
+    width: 70%;
+    overflow: hidden;
+    position: relative;
+    transform: skew(-10deg) skewY(0deg); 
+    transform-origin: bottom right;
+}
+.title-container-3 {
+    background-color: rgb(167, 129, 34);
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.title-container-3 h1 {
+    transform: skew(10deg) skewY(0deg);
+    transform-origin: bottom right;
+    font-size: 40px;
+    margin-left: 50px;
+}
+.points-container-3 {
+   
+    padding: 20px;
+    height: 100%;
+    margin-left: 40px;
+    
+}
+
+.points-container-3 p{
+    
+    transform: skew(10deg) skewY(0deg); 
+    transform-origin: bottom right;
+    margin-left: 10px;
+}
+.photo-container-3 {
+    height: 100%;
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+    transform: skew(-10deg) skewY(0deg); 
+    transform-origin: bottom left;
+}
+.photo-3 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform: skew(10deg) skewY(0deg); 
+    transform-origin: bottom left;
+}
+
+.extra-main-box{
+    
+    height: 800px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+   
+}
+
+.extrabox-1{
+height: 100%;
+width: 33%;
+
+}
+
+.extrabox-2{
+    height: 100%;
+    width: 33%;
+}
+
+.extrabox-3{
+    height: 100%;
+    width: 34%;
+}
+.extrabox-1 h3, .extrabox-2 h3, .extrabox-3 h3{
+    margin-left: 40px;
+}
+ul{
+    line-height: 2;
+}
+u{
+    color: rgb(167, 129, 34);
+}
+#consulting-service{
+    height: 400px;
+}
+
+#mep{
+    margin-bottom: 0;
+}
+#construction{
+    margin-bottom: 0;
+}

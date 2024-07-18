@@ -1,0 +1,184 @@
+body{
+    background-image: url(REGIMG/maxresdefault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-position: center center;
+
+    background-attachment: fixed;
+    width: 100%;
+   
+}
+
+
+
+.register-main-box {
+    
+   height: 800px; 
+   margin: 80px 200px 80px 200px;
+   border-radius: 30px;
+   display: flex;
+    justify-content: start;
+    border-color: black;
+    box-shadow: 800px;
+
+    
+}
+.register-photo-container {
+    
+    height: 100%;
+    width: 35%;
+    overflow: hidden;
+    position: relative;
+border-radius: 30px 0 0 30px;
+background-size: cover;
+
+}
+.register-form-box {
+    background-color: rgb(124, 142, 152);
+    width: 100%; 
+    height: 100%;
+    border-radius: 0 30px 30px 0;  
+    flex: 2;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: flex-start; 
+    padding-left: 70px; 
+   
+}
+
+#form-heading{
+    text-align: center;
+    padding: 10px 0 10px 60px;
+    font-size: x-large;
+    border: 5px;
+
+}
+.label-row{
+        width: 68%;
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        margin-bottom: 5px; 
+        margin-left: 25px;
+}
+
+.main-form{
+    margin: 0 10px 0 10px;
+}
+.form-row {
+    width: 500px;
+    display: flex;
+    justify-content: space-between; 
+
+    align-items: center; 
+    margin-bottom: 25px; 
+    margin-left: 10px;
+    
+}
+
+
+
+input[type="text"],input[type="email"], input[type="date"] {
+    padding: 8px;
+    width: 80%;
+    margin-left: 40px;
+    border-radius: 5px;
+    background-color: rgb(249, 251, 250);
+    border: 10px;
+    
+    
+   
+}
+
+button {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+
+#button1 {
+    margin-top: 20px;
+    margin-left: 44%;
+    background-color: #5c6168; 
+    color: white; 
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+#success-head{
+    font-size: 55px;
+    margin-top: 12%;
+    margin-left: 31%;
+}
+#success-details{
+    margin-left: 38%;
+}
+#success-button{
+    margin-left: 41%;
+    margin-top: 50px;
+}
+#view-button{
+background-color: rgb(230, 236, 236);
+border-radius: 8px;
+box-shadow: 2px;
+margin-left: 10%;
+}
+.details-collection{
+   
+    font-size: 19px;
+    padding-left: 43%;
+    width: 100%;
+}
+#heading{
+padding-left: 39%;
+font-size:large;
+}
+#delete{
+    font-size: x-large;
+    padding-left: 40%;
+    padding-top: 15%;
+}
+#delete-btn{
+    padding-left: 44%;
+    padding-top: 5%;
+}
+#user-id{
+    margin-left: 38%;
+}
+#button2{
+    padding: 10px;
+     background-color:  rgb(230, 236, 236); 
+     color: rgb(8, 8, 8); 
+     border: none; 
+     cursor: pointer;
+      border-radius: 5px;
+      margin-left: 32%;
+      margin-top: 30px;
+}
+#button3{
+    padding: 10px; 
+    background-color:  rgb(230, 236, 236); 
+    color: rgb(8, 8, 8); 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px;
+    margin-left: 20%;
+    margin-top: 30px;
+    
+} 
+#button3 a{
+    color: black;
+    background-color: rgb(230, 236, 236);
+    text-decoration: none;
+}
+#back-button a{ 
+    color: black;
+    background-color: rgb(230, 236, 236);
+    text-decoration: none;
+}

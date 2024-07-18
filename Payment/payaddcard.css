@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Indie+Flower&family=Quicksand:wght@300..700&display=swap');
+
+ * {
+   
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+
+
+.button {
+    background-color: rgb(0, 102, 255);
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 10px;
+    transition:  0.5s ease;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 15px;
+    font-weight: 600;
+    
+
+  }
+  
+  .button a {
+    color: white; 
+    text-decoration: none; 
+  }
+
+  .button:hover {
+    background-color: rgb(0, 31, 77); 
+    box-shadow: 7px 7px 12px 0 rgba(0, 0, 0, 0.3) ;
+  }
+  
+  .button a:hover {
+    text-decoration: underline;
+    
+  }
+  .table{
+    justify-content: center;
+  }
+
+ 
+
+.content-table {
+    border-collapse: collapse;
+    font-size: 20px;
+    width: 1000px;
+    margin: 10px 70px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 7px 7px 12px 0 rgba(0, 0, 0, 0.3);
+}
+
+.content-table thead tr {
+    background-color: rgb(51, 153, 102);
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #ccc;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(51, 153, 102);
+}
+
+
+
+.content-table .btn-1
+
+{
+  background-color: rgb(51, 153, 102);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  font-size: 15px;
+  font-weight: 600;
+  
+
+}
+
+.content-table .btn-2
+{
+
+  background-color: rgb(255, 51, 0);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition:  0.3s ease;
+  font-size: 15px;
+  font-weight: 600;
+  
+}
+
+.content-table .btn-1 a, 
+.content-table .btn-2 a
+{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.content-table .btn-1:hover
+{
+  background-color:rgb(19, 58, 38) ;
+  box-shadow: 7px 7px 12px 0 rgba(0, 0, 0, 0.3) ;
+}
+
+.content-table .btn-2:hover
+{
+  background-color:rgb(77, 15, 0) ;
+  box-shadow: 7px 7px 12px 0 rgba(0, 0, 0, 0.3) ;
+}
+
+
+.content-table .btn-1 a:hover
+{
+  text-decoration: underline;
+}
+
+.content-table .btn-2 a:hover
+{
+  text-decoration: underline;
+}
